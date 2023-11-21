@@ -144,3 +144,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""Fő függvények definiálása:
+
+add_single_platoon: Egyetlen platónt ad hozzá a modellhez egy adott sávon.
+add_platoons: Platónt ad hozzá a modellhez véletlenszerűen választott sávokon.
+compute_leaving_time: Kiszámolja a jármű elhagyási idejét a szimulátorban.
+Fő program:
+
+Beállítja a SUMO-t és a Plexe-t.
+A fő szimulációs ciklusban frissíti a járművek pozícióit és állapotát.
+Időnként hozzáad új járműflottákat a modellezéshez.
+Ellenőrzi, hogy a járművek elértek-e egy bizonyos pozíciót, és kezeli azokat.
+Számolja a járművek elhagyási idejét azoknak, amelyeknek ez a prioritása.
+Kommunikál a járművek között."""
